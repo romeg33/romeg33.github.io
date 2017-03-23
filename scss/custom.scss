@@ -2,6 +2,9 @@
 
 .intro {
 	height: 100vh;
+    @media screen and (max-width: 470px) {
+        height: 90vh;
+    }
 	position: relative;
 	.logo {
 		position: absolute;
@@ -262,6 +265,9 @@
     height: 100vh;
     min-height: 0;
     max-height: 100%;
+    @media screen and (max-width: 470px) {
+        height: 90vh;
+    }
 }
 
 #master-container .content {
